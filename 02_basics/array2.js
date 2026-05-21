@@ -17,4 +17,20 @@ const Array2 = ["akchaykumar", "salmankhan"]
 //another way to do same work is spread method
 
 const new_heros = [...array1, ...Array2]
-console.log(new_heros)
+// console.log(new_heros)
+
+
+const another_array= [1,2,3,[4,5,6],7,[8,9,[1,4,56]]]
+const real_another_array = another_array.flat(Infinity)
+console.log(real_another_array);
+
+//string to array conversion
+console.log(Array.isArray("kamaljeet"))
+console.log(Array.from("kamaljet is learning technology"))
+
+
+//multile variable ko single array me 
+let score1 =1;
+let score2 =2;
+let score3 =3;
+console .log(Array.of(score1,score2,score3))
