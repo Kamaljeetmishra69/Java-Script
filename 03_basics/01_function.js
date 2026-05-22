@@ -36,4 +36,42 @@
         console .log(`${username} just logged in`)
    }
    //loginUserDetail()//undefined just logged in
-   loginUserDetail("kamaljeet")
+   //loginUserDetail("kamaljeet")
+
+//rest operator
+   function calculateCardPrice(...num)
+   {
+      return  num
+      
+   }
+
+   //console.log(calculateCardPrice(3,66,8876,));    //[ 3, 66, 8876 ]
+
+
+    const user= {
+      username = "kamaljeet",
+      price =56789
+    }
+
+
+    function handleUser(anyobject)
+    {
+      console.log(`username is ${anyobject.username} and price is ${anyobject.price}`)
+    }
+   // handleUser(user);
+   handleUser({
+      username = "kamaljeet",
+      price =56789
+    }) 
+
+
+
+
+    const newArray=[4000,67788,87766,886554]
+
+    function getSecondArrayValue(arraypara){
+      return arraypara[2]
+
+    }
+   
+    console.log(getSecondArrayValue(newArray))
